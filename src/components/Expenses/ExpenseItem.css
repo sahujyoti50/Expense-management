@@ -1,0 +1,35 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem;
+  margin: 10px 10px 10px 10px;
+  border-radius: 12px;
+  background-color: #4b4b4b;
+  color: white;
+  font-weight: bold;
+}
+.expense-item__amount {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+@media (min-width: 580px) {
+  .expense-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  .expense-item__title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+  }
+}
